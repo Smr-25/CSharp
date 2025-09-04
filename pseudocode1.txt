@@ -1,0 +1,10 @@
+Basla
+input olaraq m ededini daxil et
+x deyisenini teyin et ve  baslangic ucun 2 deyerini ver
+i deyiseni teyin et ve baslangic deyeri ucun 1 ver
+x<m serti sehv olana qeder
+	i*=x
+	x+=2
+cixisa i ver
+Son
+
