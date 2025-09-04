@@ -1,0 +1,9 @@
+Basla
+input olaraq a ededini daxil et
+eger a % 2 == 0 && a % 3 == 0
+	cixisa yaz 3-e bolunur cutdur
+eks halda eger !(a%2==0) && a%3==0) 
+	3 - e bolunur tekdir
+eks halda
+	3-e bolunmur
+Son
