@@ -1,0 +1,11 @@
+Basla
+Input olaaraq temp ededini daxil et
+Eger temp<0
+	cixisa Donma ver
+Eks halda Eger temp <= 15
+	cixisa Soyuq ver
+Eks halda Eger temp <= 30
+	cixisa Mulayim ver
+Eks halda 
+	cixisa Isti ver
+Son

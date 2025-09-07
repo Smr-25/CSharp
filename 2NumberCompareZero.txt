@@ -1,0 +1,11 @@
+Basla
+Input olaraq x ve y daxil et
+Eger x > 0 && y > 0
+	cixisa Her ikisi musbet ver
+Eks halda Eger x > 0
+	cixisa X musbet Y menfi ver
+Eks halda Eger y > 0
+	cixisa X menfi Y musbet ver 
+Eks halda
+	cixisa Her ikisi menfi ver
+Son   
