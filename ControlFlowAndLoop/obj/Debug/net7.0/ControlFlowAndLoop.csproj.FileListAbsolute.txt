@@ -1,0 +1,15 @@
+/Users/asmrofficialfinder/Documents/CodeAcademyHW/Projects/ControlFlowAndLoop/ControlFlowAndLoop/bin/Debug/net7.0/ControlFlowAndLoop
+/Users/asmrofficialfinder/Documents/CodeAcademyHW/Projects/ControlFlowAndLoop/ControlFlowAndLoop/bin/Debug/net7.0/ControlFlowAndLoop.deps.json
+/Users/asmrofficialfinder/Documents/CodeAcademyHW/Projects/ControlFlowAndLoop/ControlFlowAndLoop/bin/Debug/net7.0/ControlFlowAndLoop.runtimeconfig.json
+/Users/asmrofficialfinder/Documents/CodeAcademyHW/Projects/ControlFlowAndLoop/ControlFlowAndLoop/bin/Debug/net7.0/ControlFlowAndLoop.dll
+/Users/asmrofficialfinder/Documents/CodeAcademyHW/Projects/ControlFlowAndLoop/ControlFlowAndLoop/bin/Debug/net7.0/ControlFlowAndLoop.pdb
+/Users/asmrofficialfinder/Documents/CodeAcademyHW/Projects/ControlFlowAndLoop/ControlFlowAndLoop/obj/Debug/net7.0/ControlFlowAndLoop.csproj.AssemblyReference.cache
+/Users/asmrofficialfinder/Documents/CodeAcademyHW/Projects/ControlFlowAndLoop/ControlFlowAndLoop/obj/Debug/net7.0/ControlFlowAndLoop.GeneratedMSBuildEditorConfig.editorconfig
+/Users/asmrofficialfinder/Documents/CodeAcademyHW/Projects/ControlFlowAndLoop/ControlFlowAndLoop/obj/Debug/net7.0/ControlFlowAndLoop.AssemblyInfoInputs.cache
+/Users/asmrofficialfinder/Documents/CodeAcademyHW/Projects/ControlFlowAndLoop/ControlFlowAndLoop/obj/Debug/net7.0/ControlFlowAndLoop.AssemblyInfo.cs
+/Users/asmrofficialfinder/Documents/CodeAcademyHW/Projects/ControlFlowAndLoop/ControlFlowAndLoop/obj/Debug/net7.0/ControlFlowAndLoop.csproj.CoreCompileInputs.cache
+/Users/asmrofficialfinder/Documents/CodeAcademyHW/Projects/ControlFlowAndLoop/ControlFlowAndLoop/obj/Debug/net7.0/ControlFlowAndLoop.dll
+/Users/asmrofficialfinder/Documents/CodeAcademyHW/Projects/ControlFlowAndLoop/ControlFlowAndLoop/obj/Debug/net7.0/refint/ControlFlowAndLoop.dll
+/Users/asmrofficialfinder/Documents/CodeAcademyHW/Projects/ControlFlowAndLoop/ControlFlowAndLoop/obj/Debug/net7.0/ControlFlowAndLoop.pdb
+/Users/asmrofficialfinder/Documents/CodeAcademyHW/Projects/ControlFlowAndLoop/ControlFlowAndLoop/obj/Debug/net7.0/ControlFlowAndLoop.genruntimeconfig.cache
+/Users/asmrofficialfinder/Documents/CodeAcademyHW/Projects/ControlFlowAndLoop/ControlFlowAndLoop/obj/Debug/net7.0/ref/ControlFlowAndLoop.dll
