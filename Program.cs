@@ -230,7 +230,7 @@ Console.WriteLine(Calculate(19,5,'*'));
 
 #region Task12
 
-static string isHereA(string str)
+static string ContainA(string str)
 {
     for (int i = 0; i < str.Length; i++)
     {
@@ -241,7 +241,7 @@ static string isHereA(string str)
 
 }
 
-Console.WriteLine(isHereA("Adam"));
+Console.WriteLine(ContainA("Adam"));
 
 #endregion
 
