@@ -1,0 +1,12 @@
+/Users/asmrofficialfinder/Documents/CodeAcademyHW/Projects/MorseCodePackage/MorseCodePackage/bin/Release/net9.0/MorseCodePackage.deps.json
+/Users/asmrofficialfinder/Documents/CodeAcademyHW/Projects/MorseCodePackage/MorseCodePackage/bin/Release/net9.0/MorseCodePackage.dll
+/Users/asmrofficialfinder/Documents/CodeAcademyHW/Projects/MorseCodePackage/MorseCodePackage/bin/Release/net9.0/MorseCodePackage.pdb
+/Users/asmrofficialfinder/Documents/CodeAcademyHW/Projects/MorseCodePackage/MorseCodePackage/obj/Release/net9.0/MorseCodePackage.GeneratedMSBuildEditorConfig.editorconfig
+/Users/asmrofficialfinder/Documents/CodeAcademyHW/Projects/MorseCodePackage/MorseCodePackage/obj/Release/net9.0/MorseCodePackage.AssemblyInfoInputs.cache
+/Users/asmrofficialfinder/Documents/CodeAcademyHW/Projects/MorseCodePackage/MorseCodePackage/obj/Release/net9.0/MorseCodePackage.AssemblyInfo.cs
+/Users/asmrofficialfinder/Documents/CodeAcademyHW/Projects/MorseCodePackage/MorseCodePackage/obj/Release/net9.0/MorseCodePackage.csproj.CoreCompileInputs.cache
+/Users/asmrofficialfinder/Documents/CodeAcademyHW/Projects/MorseCodePackage/MorseCodePackage/obj/Release/net9.0/MorseCodePackage.sourcelink.json
+/Users/asmrofficialfinder/Documents/CodeAcademyHW/Projects/MorseCodePackage/MorseCodePackage/obj/Release/net9.0/MorseCodePackage.dll
+/Users/asmrofficialfinder/Documents/CodeAcademyHW/Projects/MorseCodePackage/MorseCodePackage/obj/Release/net9.0/refint/MorseCodePackage.dll
+/Users/asmrofficialfinder/Documents/CodeAcademyHW/Projects/MorseCodePackage/MorseCodePackage/obj/Release/net9.0/MorseCodePackage.pdb
+/Users/asmrofficialfinder/Documents/CodeAcademyHW/Projects/MorseCodePackage/MorseCodePackage/obj/Release/net9.0/ref/MorseCodePackage.dll
