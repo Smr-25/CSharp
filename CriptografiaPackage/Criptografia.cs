@@ -4,7 +4,7 @@ namespace CriptografiaPackage;
     {
         public static string ToEncrypt(this string message)
         {
-            char[] messageChr = message.ToCharArray();
+            char[] messageChr = message.ToLower().ToCharArray();
             for (int i = 0; i < messageChr.Length; i++)
             {
                 for (int j = 0; j < Alphabet.Letters.Length; j++)

@@ -1,0 +1,12 @@
+/Users/asmrofficialfinder/Documents/CodeAcademyHW/ProjectsC#/CriptografiaPackage/CriptografiaPackage/bin/Release/net8.0/CriptografiaPackage.deps.json
+/Users/asmrofficialfinder/Documents/CodeAcademyHW/ProjectsC#/CriptografiaPackage/CriptografiaPackage/bin/Release/net8.0/CriptografiaPackage.dll
+/Users/asmrofficialfinder/Documents/CodeAcademyHW/ProjectsC#/CriptografiaPackage/CriptografiaPackage/bin/Release/net8.0/CriptografiaPackage.pdb
+/Users/asmrofficialfinder/Documents/CodeAcademyHW/ProjectsC#/CriptografiaPackage/CriptografiaPackage/obj/Release/net8.0/CriptografiaPackage.GeneratedMSBuildEditorConfig.editorconfig
+/Users/asmrofficialfinder/Documents/CodeAcademyHW/ProjectsC#/CriptografiaPackage/CriptografiaPackage/obj/Release/net8.0/CriptografiaPackage.AssemblyInfoInputs.cache
+/Users/asmrofficialfinder/Documents/CodeAcademyHW/ProjectsC#/CriptografiaPackage/CriptografiaPackage/obj/Release/net8.0/CriptografiaPackage.AssemblyInfo.cs
+/Users/asmrofficialfinder/Documents/CodeAcademyHW/ProjectsC#/CriptografiaPackage/CriptografiaPackage/obj/Release/net8.0/CriptografiaPackage.csproj.CoreCompileInputs.cache
+/Users/asmrofficialfinder/Documents/CodeAcademyHW/ProjectsC#/CriptografiaPackage/CriptografiaPackage/obj/Release/net8.0/CriptografiaPackage.sourcelink.json
+/Users/asmrofficialfinder/Documents/CodeAcademyHW/ProjectsC#/CriptografiaPackage/CriptografiaPackage/obj/Release/net8.0/CriptografiaPackage.dll
+/Users/asmrofficialfinder/Documents/CodeAcademyHW/ProjectsC#/CriptografiaPackage/CriptografiaPackage/obj/Release/net8.0/refint/CriptografiaPackage.dll
+/Users/asmrofficialfinder/Documents/CodeAcademyHW/ProjectsC#/CriptografiaPackage/CriptografiaPackage/obj/Release/net8.0/CriptografiaPackage.pdb
+/Users/asmrofficialfinder/Documents/CodeAcademyHW/ProjectsC#/CriptografiaPackage/CriptografiaPackage/obj/Release/net8.0/ref/CriptografiaPackage.dll
