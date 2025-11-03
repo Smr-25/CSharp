@@ -10,6 +10,6 @@ public class RestaurantDbContext : DbContext
     
     protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
     {
-       
+        optionsBuilder.UseSqlServer("Server=.;Database=RestaurantAppDb;Trusted_Connection=True;TrustServerCertificate=True;");
     }
 }

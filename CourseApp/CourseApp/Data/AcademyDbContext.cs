@@ -14,6 +14,6 @@ public class AcademyDbContext : DbContext
     
     protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
     {
-       
+        optionsBuilder.UseSqlServer("Server=.;Database=BookAppDb;Trusted_Connection=True;TrustServerCertificate=True");
     }
 }

@@ -1,4 +1,5 @@
 using CourseApp.Data;
+using CourseApp.Exceptions;
 using CourseApp.Models;
 using Microsoft.EntityFrameworkCore;
 
@@ -15,6 +16,10 @@ public class TeacherService
     
     public async Task CreateTeacherAsync(string fullname, string specialty)
     {
+        if (specialty == null)
+        {
+            throw new InvalidSpecialtyException("Specialty cannot be null.");
+        }
         var teacher = new Teacher
         {
             FullName = fullname,
@@ -74,6 +79,40 @@ public class TeacherService
         
         Console.WriteLine(teacher);
     }
-    
-    
+
+    public async Task GetTeachersWithCourseCountAsync()
+    {
+        var teachers = await _academyDbContext.Teachers
+            .Include(t => t.Courses)
+            .Select(t => new { FullName = t.FullName, CourseCount = t.Courses.Count })
+            .ToListAsync();
+
+        foreach (var teacher in teachers)
+        {
+            Console.WriteLine(teacher);
+        }
+    }
+
+    public async Task GetTeachersWithStudentCountAsync()
+    {
+        var teachers = await _academyDbContext.Teachers
+            .Include(t => t.Courses)
+            .ThenInclude(c => c.Enrollments)
+            .ThenInclude(e => e.Student)
+            .Select(t => new 
+            { 
+                FullName = t.FullName, 
+                StudentCount = t.Courses
+                    .SelectMany(c => c.Enrollments)
+                    .Select(e => e.StudentId)
+                    .Distinct()
+                    .Count() 
+            })
+            .ToListAsync();
+
+        foreach (var teacher in teachers)
+        {
+            Console.WriteLine(teacher);
+        }
+    }
 }

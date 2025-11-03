@@ -1,4 +1,5 @@
 using CourseApp.Data;
+using CourseApp.Exceptions;
 using CourseApp.Models;
 using Microsoft.EntityFrameworkCore;
 
@@ -58,4 +59,64 @@ public class StudentService
               Console.WriteLine(student);
          }
     }
+    
+    public async Task CreateEnrollmentAsync(int studentId, int courseId)
+    {
+        if (_academyDbContext.Enrollments.Any(x => x.StudentId == studentId && x.CourseId == courseId))
+        {
+            throw new AlreadyEnrolledException("Student is already enrolled in this course.");
+        }
+        var enrollment = new Enrollment
+        {
+            StudentId = studentId,
+            CourseId = courseId,
+            EnrollmentDate = DateTime.Now
+        };
+        
+        await _academyDbContext.Enrollments.AddAsync(enrollment);
+        await _academyDbContext.SaveChangesAsync();
+    }
+    
+    public async Task DeleteEnrollmentAsync(int id)
+    {
+        var enrollment = await _academyDbContext.Enrollments.FindAsync(id);
+        if (enrollment == null)
+        {
+            Console.WriteLine("Enrollment not found.");
+            return;
+        }
+        _academyDbContext.Enrollments.Remove(enrollment);
+        await _academyDbContext.SaveChangesAsync();
+    }
+    
+    public async Task GetEnrollmentsByStudentAsync(int studentId)
+    {
+        var enrollments = await _academyDbContext.Enrollments
+            .Include(e => e.Course)
+            .Where(e => e.StudentId == studentId)
+            .ToListAsync();
+        
+        foreach (var enrollment in enrollments)
+        {
+            Console.WriteLine(enrollment);
+        }
+    }
+    
+    public async Task GetStudentWithMostEnrollmentsAsync()
+    {
+        var student = await _academyDbContext.Students
+            .Include(s => s.Enrollments)
+            .OrderByDescending(s => s.Enrollments.Count)
+            .Select(e=> new { e.Name, EnrollmentCount = e.Enrollments.Count })
+            .FirstOrDefaultAsync();
+        if (student == null)
+        {
+            Console.WriteLine("No students found.");
+            return;
+        }
+        
+        Console.WriteLine(student);
+    }
+    
+    
 }
