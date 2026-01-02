@@ -21,10 +21,6 @@ public static class TextConverter
                 {
                     morseText += morse;
                 }
-                else
-                {
-                   
-                }
                 if (i < word.Length - 1)
                 {
                     morseText += " "; 

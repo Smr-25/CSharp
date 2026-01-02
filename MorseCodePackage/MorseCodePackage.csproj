@@ -4,6 +4,14 @@
         <TargetFramework>net9.0</TargetFramework>
         <ImplicitUsings>enable</ImplicitUsings>
         <Nullable>enable</Nullable>
+        <PackageId>MorseCodePackage</PackageId>
+        <Version>1.0.1</Version>
+        <Authors>Smr-25</Authors>
+        <Company>Smr-25</Company>
+        <Description>A simple package for converting text to Morse code and vice versa.</Description>
+        <PackageTags>morse;code;converter;text;decoder</PackageTags>
+        <PackageLicenseExpression>MIT</PackageLicenseExpression>
+        <RepositoryUrl>https://github.com/Smr-25/MorseCodePackage</RepositoryUrl>
     </PropertyGroup>
    
 </Project>
