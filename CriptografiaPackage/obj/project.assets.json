@@ -11,13 +11,13 @@
     "/Users/asmrofficialfinder/.nuget/packages/": {}
   },
   "project": {
-    "version": "1.0.1",
+    "version": "1.0.2",
     "restore": {
-      "projectUniqueName": "/Users/asmrofficialfinder/Documents/CodeAcademyHW/ProjectsC#/CriptografiaPackage/CriptografiaPackage/CriptografiaPackage.csproj",
+      "projectUniqueName": "/Users/asmrofficialfinder/Documents/CodeAcademyHW/TasksC#/CriptografiaPackage/CriptografiaPackage/CriptografiaPackage.csproj",
       "projectName": "CriptografiaPackage",
-      "projectPath": "/Users/asmrofficialfinder/Documents/CodeAcademyHW/ProjectsC#/CriptografiaPackage/CriptografiaPackage/CriptografiaPackage.csproj",
+      "projectPath": "/Users/asmrofficialfinder/Documents/CodeAcademyHW/TasksC#/CriptografiaPackage/CriptografiaPackage/CriptografiaPackage.csproj",
       "packagesPath": "/Users/asmrofficialfinder/.nuget/packages/",
-      "outputPath": "/Users/asmrofficialfinder/Documents/CodeAcademyHW/ProjectsC#/CriptografiaPackage/CriptografiaPackage/obj/",
+      "outputPath": "/Users/asmrofficialfinder/Documents/CodeAcademyHW/TasksC#/CriptografiaPackage/CriptografiaPackage/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "/Users/asmrofficialfinder/.nuget/NuGet/NuGet.Config"

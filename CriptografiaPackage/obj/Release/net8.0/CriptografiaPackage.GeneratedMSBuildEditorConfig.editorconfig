@@ -8,6 +8,6 @@ build_property.PlatformNeutralAssembly =
 build_property.EnforceExtendedAnalyzerRules = 
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = CriptografiaPackage
-build_property.ProjectDir = /Users/asmrofficialfinder/Documents/CodeAcademyHW/ProjectsC#/CriptografiaPackage/CriptografiaPackage/
+build_property.ProjectDir = /Users/asmrofficialfinder/Documents/CodeAcademyHW/TasksC#/CriptografiaPackage/CriptografiaPackage/
 build_property.EnableComHosting = 
 build_property.EnableGeneratedComInterfaceComImportInterop = 
