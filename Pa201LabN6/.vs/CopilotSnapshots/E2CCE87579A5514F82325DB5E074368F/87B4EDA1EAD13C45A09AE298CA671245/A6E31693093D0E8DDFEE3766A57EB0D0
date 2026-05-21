@@ -1,6 +1,0 @@
-﻿namespace Pa201LabN6
-{
-    internal interface ICargoService
-    {
-    }
-}

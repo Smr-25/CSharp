@@ -1,4 +1,0 @@
-﻿using Pa201LabN7.Services;
-
-EventService eventService = new EventService();
-
