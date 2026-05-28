@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.14.36603.0 d17.14
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Pa201LabN6", "Pa201LabN6\Pa201LabN6.csproj", "{96D75847-523B-460E-8C36-E11B248E6513}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CargoManagement", "CargoManagement\CargoManagement.csproj", "{96D75847-523B-460E-8C36-E11B248E6513}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
