@@ -1,6 +1,6 @@
 # C# Learning Archive
 
-A structured archive of C# classwork, laboratory assignments, and homework completed during the Code Academy learning period.
+A structured archive of C# classwork, laboratory assignments, homework, and early version-control and flowchart practice completed during the Code Academy learning period.
 
 The original exercise implementations are preserved as learning history. The repository structure, project names, solution files, and generated-file handling have been standardized so each project is easier to find, open, and review.
 
@@ -17,9 +17,9 @@ CSharp/
 └── README.md
 ```
 
-- `Classwork` contains numbered console applications and short exercises completed during lessons.
+- `Classwork` contains numbered console applications and short exercises completed during lessons, including a teamwork version-control exercise.
 - `Labs` contains the PA201 laboratory assignments.
-- `Homework` contains named exercises, packages, and larger applications.
+- `Homework` contains named exercises, packages, larger applications, and early Git and flowchart practice.
 - Projects are grouped by their primary subject, while exercises covering several concepts are placed under the closest matching topic.
 
 ## Status Guide
@@ -30,8 +30,9 @@ CSharp/
 | `Incomplete` | The original source currently contains compilation errors or missing references. |
 | `Duplicate` | The solution builds, but substantially overlaps another exercise in the archive. |
 | `Not Tested` | A build could not be completed in the current environment. |
+| `Archive Only` | The item contains text or diagrams rather than a buildable .NET project. |
 
-Build status describes compilation only. Database applications may still require SQL Server and a valid local connection string. File-based exercises containing original Windows paths may require path configuration before they can run on another operating system.
+For buildable projects, status describes compilation only. Database applications may still require SQL Server and a valid local connection string. File-based exercises containing original Windows paths may require path configuration before they can run on another operating system.
 
 ## Classwork
 
@@ -51,6 +52,7 @@ Build status describes compilation only. Database applications may still require
 | OOP | [LibraryManagement](Classwork/OOP/LibraryManagement) | `ConsoleApp10` | Working |
 | OOP | [StaticInstanceCounter](Classwork/OOP/StaticInstanceCounter) | `ConsoleApp9` | Working |
 | OOP | [TypeConversionAndCurrencyExchange](Classwork/OOP/TypeConversionAndCurrencyExchange) | `ConsoleApp12` | Working |
+| Version Control | [Teamwork](Classwork/VersionControl/Teamwork) | `Teamwork` | Archive Only |
 
 ## Labs
 
@@ -72,6 +74,7 @@ Build status describes compilation only. Database applications may still require
 | Algorithms | [AlgorithmExercises](Homework/Algorithms/AlgorithmExercises) | `AlgorithmDataStructure` | Working |
 | Algorithms | [ArrayAndSearchExercises](Homework/Algorithms/ArrayAndSearchExercises) | `DataStructures` | Working |
 | Algorithms | [MixedAlgorithmExercises](Homework/Algorithms/MixedAlgorithmExercises) | `CopilotAlgorithm` | Working |
+| Algorithms | [FlowchartExercises](Homework/Algorithms/FlowchartExercises) | `FlowChart-Repo` | Archive Only |
 | Collections | [StackQueueHashSet](Homework/Collections/StackQueueHashSet) | New practice | Working |
 | Data Access | [AdoNetStudentManagement](Homework/DataAccess/AdoNetStudentManagement) | `AdoNetProject` | Working |
 | Entity Framework | [AcademyManagementApp](Homework/EntityFramework/AcademyManagementApp) | `AcademyApp` | Working |
@@ -93,17 +96,23 @@ Build status describes compilation only. Database applications may still require
 | OOP | [VirtualOverrideAndHiding](Homework/OOP/VirtualOverrideAndHiding) | New practice | Working |
 | Packages | [CaesarCipherPackage](Homework/Packages/CaesarCipherPackage) | `CriptografiaPackage` | Working |
 | Packages | [MorseCodePackage](Homework/Packages/MorseCodePackage) | `MorseCodePackage` | Working |
+| Version Control | [BioPractice](Homework/VersionControl/BioPractice) | `Bio-Repo` | Archive Only |
+| Version Control | [ChatApplicationPractice](Homework/VersionControl/ChatApplicationPractice) | `ChatApplication` | Archive Only |
+| Version Control | [FirstRepositoryPractice](Homework/VersionControl/FirstRepositoryPractice) | `First-Repo` | Archive Only |
 
 ## Build Summary
 
-- 46 independent pieces of coursework
+- 46 independent C# projects
 - 50 `.csproj` files
 - 46 validated solution files
 - 42 projects marked `Working`
 - 3 projects marked `Incomplete`
 - 1 project marked `Duplicate` and confirmed to build
+- 5 text or diagram practice folders marked `Archive Only`
 
-The four new practice projects build successfully and their console output has been checked. The remaining statuses come from the earlier archive build pass.
+The four previously added C# practice projects build successfully and their console output has been checked. The remaining C# statuses come from the earlier archive build pass.
+
+The five `Archive Only` folders contain early Git exercises or paired pseudocode and flowchart images. They have no `.csproj` files, so the build counts above do not include them.
 
 Known compilation issues have been left unchanged to preserve the original exercise implementations:
 
