@@ -72,6 +72,7 @@ Build status describes compilation only. Database applications may still require
 | Algorithms | [AlgorithmExercises](Homework/Algorithms/AlgorithmExercises) | `AlgorithmDataStructure` | Working |
 | Algorithms | [ArrayAndSearchExercises](Homework/Algorithms/ArrayAndSearchExercises) | `DataStructures` | Working |
 | Algorithms | [MixedAlgorithmExercises](Homework/Algorithms/MixedAlgorithmExercises) | `CopilotAlgorithm` | Working |
+| Collections | [StackQueueHashSet](Homework/Collections/StackQueueHashSet) | New practice | Working |
 | Data Access | [AdoNetStudentManagement](Homework/DataAccess/AdoNetStudentManagement) | `AdoNetProject` | Working |
 | Entity Framework | [AcademyManagementApp](Homework/EntityFramework/AcademyManagementApp) | `AcademyApp` | Working |
 | Entity Framework | [BookLibraryApp](Homework/EntityFramework/BookLibraryApp) | `BookApp` | Working |
@@ -80,24 +81,29 @@ Build status describes compilation only. Database applications may still require
 | Entity Framework | [RestaurantReservationApp](Homework/EntityFramework/RestaurantReservationApp) | `RestaurantApp` | Working |
 | Fundamentals | [ControlFlowAndLoopExercises](Homework/Fundamentals/ControlFlowAndLoopExercises) | `ControlFlowAndLoop` | Working |
 | Fundamentals | [DigitAnalysisExercises](Homework/Fundamentals/DigitAnalysisExercises) | `CSharpIntro` | Working |
+| Fundamentals | [DoWhilePractice](Homework/Fundamentals/DoWhilePractice) | New practice | Working |
 | Fundamentals | [MethodExercises](Homework/Fundamentals/MethodExercises) | `Methods` | Working |
 | Fundamentals | [StringAndArrayExercises](Homework/Fundamentals/StringAndArrayExercises) | `StringMethods` | Working |
 | OOP | [CalculatorApp](Homework/OOP/CalculatorApp) | `Classes` | Working |
+| OOP | [DelegateAndEventDemo](Homework/OOP/DelegateAndEventDemo) | New practice | Working |
 | OOP | [DoctorManagementApp](Homework/OOP/DoctorManagementApp) | `ClassesProject` | Working |
 | OOP | [EmployeeManagementApp](Homework/OOP/EmployeeManagementApp) | `InterfaceProject` | Working |
 | OOP | [LibraryManagementApp](Homework/OOP/LibraryManagementApp) | `DelegateMiniApp` | Incomplete |
 | OOP | [ObjectCopyingDemo](Homework/OOP/ObjectCopyingDemo) | `ObjectCopy` | Working |
+| OOP | [VirtualOverrideAndHiding](Homework/OOP/VirtualOverrideAndHiding) | New practice | Working |
 | Packages | [CaesarCipherPackage](Homework/Packages/CaesarCipherPackage) | `CriptografiaPackage` | Working |
 | Packages | [MorseCodePackage](Homework/Packages/MorseCodePackage) | `MorseCodePackage` | Working |
 
 ## Build Summary
 
-- 42 independent pieces of coursework
-- 46 `.csproj` files
-- 42 validated solution files
-- 38 projects marked `Working`
+- 46 independent pieces of coursework
+- 50 `.csproj` files
+- 46 validated solution files
+- 42 projects marked `Working`
 - 3 projects marked `Incomplete`
 - 1 project marked `Duplicate` and confirmed to build
+
+The four new practice projects build successfully and their console output has been checked. The remaining statuses come from the earlier archive build pass.
 
 Known compilation issues have been left unchanged to preserve the original exercise implementations:
 
@@ -110,16 +116,20 @@ Known compilation issues have been left unchanged to preserve the original exerc
 The archive demonstrates:
 
 - Variables, data types, conversions, conditions, and loops
+- `do-while` loops with input validation and repeated calculation
 - Arrays, strings, methods, `params`, `ref`, and `out`
 - Classes, constructors, encapsulation, inheritance, abstraction, and polymorphism
+- Virtual methods, overriding, and method hiding
 - Interfaces, enums, generics, extension methods, indexers, and custom exceptions
-- Collections, LINQ, lambdas, regular expressions, and object copying
+- Custom delegates, events, and event subscriptions
+- Collections including `List<T>`, `Dictionary<TKey, TValue>`, `Stack<T>`, `Queue<T>`, and `HashSet<T>`
+- LINQ, lambdas, regular expressions, and object copying
 - File I/O and JSON serialization
 - Async programming and Entity Framework Core
 - ADO.NET and SQL Server access
 - Class libraries and NuGet package creation
 
-Pure C# topics suitable for a later practice pass are custom delegates and events, `do-while`, virtual methods and method hiding, and additional collection types such as `Stack<T>`, `Queue<T>`, and `HashSet<T>`.
+The focused examples are [DoWhilePractice](Homework/Fundamentals/DoWhilePractice), [DelegateAndEventDemo](Homework/OOP/DelegateAndEventDemo), [VirtualOverrideAndHiding](Homework/OOP/VirtualOverrideAndHiding), and [StackQueueHashSet](Homework/Collections/StackQueueHashSet).
 
 ## Running a Project
 
