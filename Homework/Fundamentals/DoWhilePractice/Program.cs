@@ -16,8 +16,8 @@ do
 }
 while (!int.TryParse(input, out number) || number <= 0);
 
-int current = 1;
-int sum = 0;
+long current = 1;
+long sum = 0;
 
 do
 {
