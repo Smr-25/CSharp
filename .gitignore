@@ -1,0 +1,24 @@
+# .NET build output
+**/bin/
+**/obj/
+**/publish/
+
+# IDE settings
+**/.vs/
+**/.idea/
+**/.vscode/
+*.user
+*.suo
+*.rsuser
+*.userosscache
+*.sln.docstates
+*.DotSettings.user
+
+# NuGet build artifacts
+*.nupkg
+*.snupkg
+
+# Logs and operating-system files
+*.log
+.DS_Store
+Thumbs.db
