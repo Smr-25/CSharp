@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2012/06/nuspec.xsd">
+  <metadata>
+    <id>CriptografiaPackage</id>
+    <version>1.0.1</version>
+    <authors>CriptografiaPackage</authors>
+    <description>Package Description</description>
+    <repository type="git" commit="d6a79d4edbc4886252c26b2e65cd9e9fc1165933" />
+    <dependencies>
+      <group targetFramework="net8.0" />
+    </dependencies>
+  </metadata>
+  <files>
+    <file src="/Users/asmrofficialfinder/Documents/CodeAcademyHW/ProjectsC#/CriptografiaPackage/CriptografiaPackage/bin/Release/net8.0/CriptografiaPackage.dll" target="lib/net8.0/CriptografiaPackage.dll" />
+  </files>
+</package>

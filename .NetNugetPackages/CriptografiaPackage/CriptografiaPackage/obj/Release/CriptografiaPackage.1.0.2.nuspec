@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2012/06/nuspec.xsd">
+  <metadata>
+    <id>CriptografiaPackage</id>
+    <version>1.0.2</version>
+    <authors>Smr-25</authors>
+    <license type="expression">MIT</license>
+    <licenseUrl>https://licenses.nuget.org/MIT</licenseUrl>
+    <description>A package for simple encryption using a Caesar cipher.</description>
+    <tags>encryption caesar cipher cryptography text</tags>
+    <repository type="git" url="https://github.com/Smr-25/CriptografiaPackage" commit="1dc2d80edc241cc7af8bf74ad0d66cc991b7ff35" />
+    <dependencies>
+      <group targetFramework="net8.0" />
+    </dependencies>
+  </metadata>
+  <files>
+    <file src="/Users/asmrofficialfinder/Documents/CodeAcademyHW/TasksC#/CriptografiaPackage/CriptografiaPackage/bin/Release/net8.0/CriptografiaPackage.dll" target="lib/net8.0/CriptografiaPackage.dll" />
+  </files>
+</package>
