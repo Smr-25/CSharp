@@ -1,0 +1,15 @@
+/Users/asmrofficialfinder/Documents/CodeAcademyHW/TasksC#/StringMethods/StringMethods/bin/Debug/net8.0/StringMethods
+/Users/asmrofficialfinder/Documents/CodeAcademyHW/TasksC#/StringMethods/StringMethods/bin/Debug/net8.0/StringMethods.deps.json
+/Users/asmrofficialfinder/Documents/CodeAcademyHW/TasksC#/StringMethods/StringMethods/bin/Debug/net8.0/StringMethods.runtimeconfig.json
+/Users/asmrofficialfinder/Documents/CodeAcademyHW/TasksC#/StringMethods/StringMethods/bin/Debug/net8.0/StringMethods.dll
+/Users/asmrofficialfinder/Documents/CodeAcademyHW/TasksC#/StringMethods/StringMethods/bin/Debug/net8.0/StringMethods.pdb
+/Users/asmrofficialfinder/Documents/CodeAcademyHW/TasksC#/StringMethods/StringMethods/obj/Debug/net8.0/StringMethods.GeneratedMSBuildEditorConfig.editorconfig
+/Users/asmrofficialfinder/Documents/CodeAcademyHW/TasksC#/StringMethods/StringMethods/obj/Debug/net8.0/StringMethods.AssemblyInfoInputs.cache
+/Users/asmrofficialfinder/Documents/CodeAcademyHW/TasksC#/StringMethods/StringMethods/obj/Debug/net8.0/StringMethods.AssemblyInfo.cs
+/Users/asmrofficialfinder/Documents/CodeAcademyHW/TasksC#/StringMethods/StringMethods/obj/Debug/net8.0/StringMethods.csproj.CoreCompileInputs.cache
+/Users/asmrofficialfinder/Documents/CodeAcademyHW/TasksC#/StringMethods/StringMethods/obj/Debug/net8.0/StringMethods.sourcelink.json
+/Users/asmrofficialfinder/Documents/CodeAcademyHW/TasksC#/StringMethods/StringMethods/obj/Debug/net8.0/StringMethods.dll
+/Users/asmrofficialfinder/Documents/CodeAcademyHW/TasksC#/StringMethods/StringMethods/obj/Debug/net8.0/refint/StringMethods.dll
+/Users/asmrofficialfinder/Documents/CodeAcademyHW/TasksC#/StringMethods/StringMethods/obj/Debug/net8.0/StringMethods.pdb
+/Users/asmrofficialfinder/Documents/CodeAcademyHW/TasksC#/StringMethods/StringMethods/obj/Debug/net8.0/StringMethods.genruntimeconfig.cache
+/Users/asmrofficialfinder/Documents/CodeAcademyHW/TasksC#/StringMethods/StringMethods/obj/Debug/net8.0/ref/StringMethods.dll
