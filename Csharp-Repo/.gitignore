@@ -1,0 +1,13 @@
+# Build output
+**/bin/
+**/obj/
+
+# IDE folders
+.vs/
+.idea/
+
+# User-specific files
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
