@@ -1,0 +1,9 @@
+Basla
+Input olaraq a b c ededlerini daxil et
+Eger a > b && a > c
+	cixisa a ver
+Eks halda Eger b > c
+	cixisa b ver
+Eks halda 
+	cixisa c ver
+Son
