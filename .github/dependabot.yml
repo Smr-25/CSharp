@@ -1,0 +1,24 @@
+version: 2
+updates:
+  - package-ecosystem: github-actions
+    directory: /
+    schedule:
+      interval: weekly
+  - package-ecosystem: nuget
+    directories:
+      - "/Classwork/EntityFramework/StudentRelationshipDemo/StudentRelationshipDemo"
+      - "/Homework/DataAccess/AdoNetStudentManagement/AdoNetStudentManagement"
+      - "/Homework/EntityFramework/AcademyManagementApp/AcademyApp.BLL"
+      - "/Homework/EntityFramework/AcademyManagementApp/AcademyApp.Core"
+      - "/Homework/EntityFramework/AcademyManagementApp/AcademyApp.DLL"
+      - "/Homework/EntityFramework/AcademyManagementApp/AcademyApp.PL"
+      - "/Homework/EntityFramework/BookLibraryApp/BookLibraryApp"
+      - "/Homework/EntityFramework/CourseManagementApp/CourseManagementApp"
+      - "/Homework/EntityFramework/GroupCrudDemo/GroupCrudDemo"
+      - "/Homework/EntityFramework/RestaurantReservationApp/RestaurantReservationApp"
+      - "/Homework/OOP/ObjectCopyingDemo/ObjectCopyingDemo"
+      - "/Labs/EntityFramework/EventTicketingSystem/EventTicketingSystem"
+      - "/Labs/FileIO/CardTransactionSystem/CardTransactionSystem"
+    schedule:
+      interval: weekly
+    open-pull-requests-limit: 5
